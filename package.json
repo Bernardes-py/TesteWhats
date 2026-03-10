@@ -1,0 +1,19 @@
+{
+  "name": "teste-whats",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "smoke": "node scripts/smoke.js",
+    "e2e:send-self": "node scripts/e2e-send-self.js",
+    "test:flow:mock": "node scripts/test-flow-mock.js",
+    "test:unit": "node scripts/test-unit.js",
+    "test:receive": "node scripts/test-receive.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "express": "^4.18.2"
+  }
+}
